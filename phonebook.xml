@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YealinkIPPhoneBook>
+<Title>Phonebook</Title>
+	<Menu Name="Bradner">
+		<Unit Name="Adam Brossia" Phone3="" Phone2="4192069454" Phone1="1702"/>
+		<Unit Name="Bradner Office" Phone3="" Phone2="4192873275" Phone1="1701"/>
+		<Unit Name="Brock Abke" Phone3="" Phone2="4193456578" Phone1=""/>
+		<Unit Name="Cameron Shirer" Phone3="" Phone2="4193418510" Phone1=""/>
+		<Unit Name="Jim Walter" Phone3="" Phone2="4199341693" Phone1="1703"/>
+	</Menu>
+	<Menu Name="Curtice">
+		<Unit Name="Brice Gahler" Phone3="" Phone2="4195520169" Phone1="3103"/>
+		<Unit Name="Chris Milbrodt" Phone3="" Phone2="4196997538" Phone1=""/>
+	</Menu>
+</YealinkIPPhoneBook>

@@ -1,0 +1,126 @@
+.group {
+	background-color:#c1e8fc;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:3px solid #80d3ff;
+	padding: 2vw;
+	margin-bottom: 2vw;
+}
+.title_container {
+	margin-bottom: -3px;
+}
+.title_container > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+.group_name {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Verdana;
+	font-size: 2vw;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 1vw;
+	background-color: #c1e8fc;
+	border: 3px solid #80d3ff;
+	color: #000000;
+}
+tr {
+	margin: 10px;
+	padding: 1vw;
+}
+td {
+	font-size: 2vw;
+	width: 10vw;
+	height: 2vw;
+}
+.number {
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:3px solid #80d3ff;
+	padding: 1vw;
+	text-align: center;
+}
+.blank_row
+{
+    height: 2vw !important;
+    background-color: #c1e8fc;
+}
+/* Add Button */
+.add_button {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Verdana;
+	font-size: 0.75vw;
+	text-decoration: none;
+	padding: 0.75vw;
+	background-color: #5bff94;
+	border: 1px solid #3eff82;
+	color: #000000;
+	width: 8vw;
+	text-align: center;
+}
+.add_button:hover {
+	background-color: #48d87b;
+}
+.add_button:active {
+	position: relative;
+	top: 1px;
+}
+/* Edit Button */
+.edit_button {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Verdana;
+	font-size: 0.75vw;
+	text-decoration: none;
+	padding: 0.75vw;
+	background-color: #ffd84c;
+	border: 1px solid #ffcd16;
+	color: #000000;
+	width: 8vw;
+	text-align: center;
+}
+.edit_button:hover {
+	background-color: #d1a918;
+}
+.edit_button:active {
+	position: relative;
+	top: 1px;
+}
+/* Delete Button */
+.delete_button {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Verdana;
+	font-size: 0.75vw;
+	text-decoration: none;
+	padding: 0.75vw;
+	background-color: #fc8d83;
+	border: 1px solid #d83526;
+	color: #000000;
+	width: 8vw;
+	text-align: center;
+}
+.delete_button:hover {
+	background-color: #d83526;
+}
+.delete_button:active {
+	position: relative;
+	top: 1px;
+}
+
