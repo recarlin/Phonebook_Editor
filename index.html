@@ -11,7 +11,25 @@
 		<table class="group">
 			<div class="title_container">
 				<div class="group_name">Western Ring</div>
-				<a href="#" class="add_button">Add Contact</a>
+				<a href="#addPopup" class="add_button">Add Contact</a>
+
+<!--
+				<div data-role="popup" id="addPopup" class="ui-content" style="min-width:250px;">
+					<form method="post" action="demoform.asp">
+						<div>
+							<h3>Login information</h3>
+							<label for="usrnm" class="ui-hidden-accessible">Username:</label>
+							<input type="text" name="user" id="usrnm" placeholder="Username">
+							<label for="pswd" class="ui-hidden-accessible">Password:</label>
+							<input type="password" name="passw" id="pswd" placeholder="Password">
+							<label for="log">Keep me logged in</label>
+							<input type="checkbox" name="login" id="log" value="1" data-mini="true">
+							<input type="submit" data-inline="true" value="Log in">
+						</div>
+					</form>
+				</div>
+-->
+				
 				<a href="#" class="delete_button">Delete Group</a>
 			</div>
 			<tr class="contact">
@@ -21,51 +39,7 @@
 				<td class="number">Number 3</td>
 				<td class="edit">
 					<a href="#" class="edit_button">Edit Contact</a>
-					<a href="#" class="delete_button">Delete Contact</a>
-				</td>
-			</tr>
-			<tr class="blank_row">
-			    <td colspan="3"></td>
-			</tr>
-			<tr class="contact">
-				<td class="contact_name">Contact 2</td>
-				<td class="number">Number 1</td>
-				<td class="number">Number 2</td>
-				<td class="number">Number 3</td>
-				<td class="edit">
-					<a href="#" class="edit_button">Edit Contact</a>
-					<a href="#" class="delete_button">Delete Contact</a>
-				</td>
-			</tr>
-			<tr class="blank_row">
-			    <td colspan="3"></td>
-			</tr>
-			<tr class="contact">
-				<td class="contact_name">Contact 3</td>
-				<td class="number">Number 1</td>
-				<td class="number">Number 2</td>
-				<td class="number">Number 3</td>
-				<td class="edit">
-					<a href="#" class="edit_button">Edit Contact</a>
-					<a href="#" class="delete_button">Delete Contact</a>
-				</td>
-			</tr>
-		</table>
-		
-		<table class="group">
-			<div class="title_container">
-				<div class="group_name">Eastern Ring</div>
-				<a href="#" class="add_button">Add Contact</a>
-				<a href="#" class="delete_button">Delete Group</a>
-			</div>
-			<tr class="contact">
-				<td class="contact_name">Contact 1</td>
-				<td class="number">Number 1</td>
-				<td class="number">Number 2</td>
-				<td class="number">Number 3</td>
-				<td class="edit">
-					<a href="#" class="edit_button">Edit Contact</a>
-					<a href="#" class="delete_button">Delete Contact</a>
+					<a href="#" class="delete_button" onclick="deleteContact(this)">Delete Contact</a>
 				</td>
 			</tr>
 			<tr class="blank_row">
